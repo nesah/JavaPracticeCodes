@@ -4,7 +4,7 @@
  * Date: 20220913
  * 
  * 
- * About: Convert quartes to gallons
+ * About: Convert quarts to gallons
  * 
  */
 import java.util.Scanner;
