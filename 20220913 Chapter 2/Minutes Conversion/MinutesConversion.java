@@ -16,17 +16,20 @@ public class MinutesConversion {
         int minToHour;
         float minutes, remainderMins, minToDays, finalMinToHours;
 
-        System.out.print("Input the minutes:  ");
+        System.out.print("\nInput the minutes:  ");
         minutes = read.nextInt();
 
         //computations for minutes to hours
         minToHour = (int) minutes / (int) MINUTES_IN_HOUR;
         remainderMins = (0.01f) * (minutes % MINUTES_IN_HOUR);
         finalMinToHours = minToHour + remainderMins;
-        System.out.printf("%.2f", finalMinToHours);
+        //System.out.printf("%.2f", finalMinToHours);
 
-        //computations for minutes to days
+        //computations for minutes(hours) to days
+        minToDays = finalMinToHours / HOURS_IN_DAYS;
+        //System.out.print(minToDays);
 
-
+        System.out.printf("\n%.0f minutes is equals to %.2f hours", minutes, finalMinToHours);
+        System.out.printf(" and %.3f days.\n\n", minToDays);
     }
 }
