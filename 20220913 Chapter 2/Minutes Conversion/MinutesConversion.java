@@ -1,9 +1,6 @@
-/* by Shane A. Delos Reyes
- * 
- * 
+/* 
+ * by Shane A. Delos Reyes
  * Date: 20220913
- * 
- * 
  * About: Convert minutes to hours and days
  * 
  */

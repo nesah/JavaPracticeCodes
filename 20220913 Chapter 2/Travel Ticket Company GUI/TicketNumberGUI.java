@@ -1,6 +1,6 @@
 /* 
  * by Shane A. Delos Reyes
- * date: 2022.09.13
+ * date: 2022.09.15
  * about: [GUI]The class prompts a ticket agent to enter a six-digit ticket number. 
  * Ticket numbers are designed so that if you drop the last digit of the number, 
  * then dividethe number by 7, the remainder of the division will be 
